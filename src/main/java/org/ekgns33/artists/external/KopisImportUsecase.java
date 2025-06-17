@@ -10,6 +10,7 @@ import org.ekgns33.artists.external.client.KopisClient;
 import org.ekgns33.artists.external.dto.KopisPerformanceDetailResponse;
 import org.ekgns33.artists.external.dto.KopisPerformanceRequest;
 import org.ekgns33.artists.external.dto.KopisResponse;
+import org.ekgns33.artists.external.event.KopisImportDetailFailedEvent;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestClient;
